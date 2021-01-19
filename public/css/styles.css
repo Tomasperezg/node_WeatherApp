@@ -1,0 +1,76 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: #2c2c2c;
+}
+h3{
+    color: #2c2c2c;
+    font-size: 27px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.prof-con{
+    text-align: center;
+}
+.profile-pic{
+    width: 220px;
+    height: 320px;
+}
+.header{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #2c2c2c;
+    font-size: 30px;
+    padding: 20px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.error{
+    text-align: center;
+    font-size: 45px;
+    color: #2c2c2c;
+    font-weight: 900;
+}
+html{
+    padding-left: 15%;
+    padding-right: 15%;
+    max-width: 1000px;
+}
+body{
+    width: 75%;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #2c2c2c;
+    font-size: 20px;
+}
+.footer-p{
+    padding-top: 70px;
+}
+#msg-One{
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: 900;
+}
+#msg-Two{
+    font-size: 13px;
+    font-weight: 600;
+}
+button{
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 0%;
+    background-color: #2c2c2c;
+    color: white;
+}
+button:hover{
+    background-color: #cccc;
+    cursor: pointer;
+}
+input{
+    width: 180px;
+    height: 22px;
+}
