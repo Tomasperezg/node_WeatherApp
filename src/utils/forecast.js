@@ -9,7 +9,7 @@ const forecast = (lat, lon, callback) =>{
         }else if (body.error){
             callback('Unable to find weather')
         }else{
-            callback(undefined, 'current temp is '+ body.current.temperature + ' feels like: ' + body.current.feelslike)
+            callback(undefined, 'current temp is '+ body.current.temperature + ' degrees F. feels like: ' + body.current.feelslike + ' degrees F. and a Wind Speed of ' + body.current.wind_speed + ' MPH')
         }
     })
 }
